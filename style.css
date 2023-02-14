@@ -1,0 +1,447 @@
+/* >>>>>>>>>>>>> fonts <<<<<<< */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700,@400&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.courses_time li{
+    /* font-size: calc(10px + 10 * (100vw / 1440)); */
+    font-size: calc(10px + 10 * ((100vw - 320px) / (1440 - 320)));
+}
+.courses_time li img {
+    width: calc(10px + 10 * ((100vw - 320px) / (1440 - 320)));
+    margin-right: 0.5em;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: calc(20px + 60 * ((100vw - 320px) / (1440 - 320)));
+    line-height: 101%;
+    margin: 0;
+}
+h2 {
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 700;
+    font-size: calc(20px + 35 * ((100vw - 320px) / (1440 - 320)));
+}
+h3 {
+    font-weight: 700;
+    font-size: calc(14px + 16 * ((100vw - 320px) / (1440 - 320)));
+    padding-left: 0.5em;
+    margin: 0;
+    height: 15%;
+}
+p {
+    font-size: calc(10px + 10 * ((100vw - 320px) / (1440 - 320)));
+    line-height: 1.5em;
+}
+.about_article p {
+    font-size: calc(10px + 14 * ((100vw - 320px) / (1440 - 320)));
+    line-height: 150%;
+}
+.duration_info, .lesson_info {
+    font-size: calc(10px + 8 * ((100vw - 320px) / (1440 - 320)));
+    font-weight: 400;
+    width: 25%;
+}
+.duration_info span, .lesson_info span {
+    font-size: calc(12px + 13 * ((100vw - 320px) / (1440 - 320)));
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 0.5em; 
+}
+.what_ul li {
+    font-size: calc(12px + 12 * ((100vw - 320px) / (1440 - 320)));
+    line-height: calc(18px + 18 * ((100vw - 320px) / (1440 - 320)));
+}
+.program_items p {
+    font-size: calc(12px + 13 * ((100vw - 320px) / (1440 - 320)));
+    padding: 10% 0;
+    margin: 0 5%;
+    line-height: 130%;
+}
+.price_wrapper :nth-child(2) {
+    font-size: calc(12px + 13 * ((100vw - 320px) / (1440 - 320)));
+    margin: 0;
+    line-height: 0;
+}
+.price_wrapper :nth-child(3) {
+    font-size: calc(37px + 43 * ((100vw - 320px) / (1440 - 320)));
+    margin: 0;
+}
+.price_info-text {
+    font-size: calc(10px + 8 * ((100vw - 320px) / (1440 - 320)));
+    font-weight: 400;
+    width: 35%;
+}
+.price_info-text span {
+    font-size: calc(12px + 13 * ((100vw - 320px) / (1440 - 320)));
+    display: inline-block;
+    margin-bottom: 0.5em; 
+}
+.copyright p {
+    font-size: calc(10px + 8 * ((100vw - 320px) / (1440 - 320)));
+}
+.contact li {
+    font-size: calc(12px + 13 * ((100vw - 320px) / (1440 - 320)));
+}
+.autor-name {
+    font-family: 'Roboto Slab', serif;
+    font-size: calc(14px + 16 * ((100vw - 320px) / (1440 - 320)));
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+/* ______________________________________________ */
+._wrapper {
+    width: 80vw;
+}
+/* >>>>>>>>>>>>>> header <<<<<<<<<<<< */
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.logo_container {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo {
+    width: calc(52px + 60 * ((100vw - 320px) / (1440 - 320)));
+}
+/* >>>>>>>>>>>> main <<<<<<<< */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* >>>>>>>>>>>> first block <<<<<<<<< */
+.courses_time {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    width: 45vw;
+    gap: 3em;
+    padding: 0;
+    margin: 0;
+}
+.courses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.courses_content {
+    width: 55%;
+}
+.courses_img{
+    width: calc(141px + 163 * ((100vw - 320px) / (1440 - 320)));
+    align-self: center;
+    height: auto;
+    position: relative;
+}
+.courses_img-img {
+    width: 90%;
+    margin-bottom: 10px;
+    height: auto;
+}
+.courses_img-ellipse {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/* >>>>>>>>>>>>> quote <<<<<<<<< */
+.quote {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+.quote_content {
+    width: 40%;
+    background-color: #1E4681;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(11px + 14 * (100vw / 1440));
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+.quote_content-quote {
+    width: 80%;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+.quate_content-autor {
+    width: 95%;
+    text-align: end;
+    margin-top: 0;
+}
+/* >>>>>>>>>>>>>>>> about <<<<<<<<<<<<<<< */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.about_article {
+    width: 50%;
+}
+.about_image {
+    width: calc(141px + 163 * ((100vw - 320px) / (1440 - 320)));
+    height: auto;
+    align-self: center;
+    position: relative;
+    margin-top: 5em;
+}
+.about_img-img {
+    width: 80%;
+    margin-bottom: 10px;
+    padding-left: 20px; 
+    height: auto;
+}
+.about_img-ellipse {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/* >>>>>>>>>>>>>>duration<<<<<<<<<<<<*/
+.duration {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+.duration_info_block {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    align-self: center;
+}
+.duration_img {
+    width: 25%;
+    height: auto;
+    position: relative;
+}
+.duration_img_main {
+    width: 90%;
+    margin-bottom: 1em;
+}
+.duration_img_ellipse {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/* >>>>>>>>> lesson-format <<<<<<<<< */
+.lesson-format {
+    margin-top: 8%;
+}
+.lesson-format h2 {
+    margin-bottom: 2em;
+}
+.lesson-format_type {
+    display: flex;
+    justify-content: space-between;
+}
+.lesson_info span {
+    color:#1E4681;
+}
+/* >>>>>>>>>>> what <<<<<<<<<<<<<<<< */
+.what {
+    margin-top: 8%;
+}
+.what_ul {
+    width: 55%;
+}
+/* >>>>>>>>>> program <<<<<<<<<<<<< */
+.program {
+    margin: 8em 0;
+}
+.program_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.program_wrapper-zero {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    gap: 4%;
+}
+.program_items {
+    width: 31%;
+    height: auto;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.program_items img {
+    width: 100%;
+}
+/* >>>>>>> review <<<<<<<<<< */
+.review {
+    background-color: #EFEFEF;
+    padding: 0 10% 7%;
+}
+.review_info {
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 3%;
+}
+.review_autor {
+    display: flex;
+}
+.review_autor img {
+    width: 25%;
+}
+.review_autor-name img {
+    width: 10%;
+}
+/* >>>>>>>>>>>> price <<<<<<<<<< */
+.price {
+    background-color: #9DC9C8;
+    padding: 10% 10%;
+}
+.price_info {
+    display: flex;
+    gap: 10%;
+    margin-top: 5%;
+}
+.price_wrapper h2 {
+    padding-bottom: 5%;
+}
+/* >>>>>>>>>>>> footer <<<<<<<<<< */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 10%;
+    background-color: black;
+    color: white;
+}
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.footer_content-logo  {
+    /* width: 20%; */
+    width: calc(53px + 62 * ((100vw - 320px) / (1440 - 320)));
+    padding-top: 1em;
+}
+.footer_content-logo {
+    width: inherit
+}
+.sosial-icons {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.sosial-icons li {
+    padding-right: 1.5%;
+}
+.sosial-icons li img {
+    width: calc(16px + 17 * ((100vw - 320px) / (1440 - 320)));
+}
+.contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contact li img {
+    width: calc(12px + 13 * ((100vw - 320px) / (1440 - 320)));
+}
+.contact li {
+    padding-bottom: 1em;
+}
+.contact li a {
+    color: white;
+    text-decoration: none;
+}
+.copyright {
+    background-color: black;
+    color: white;
+    padding: 0 10%;
+}
+
+@media screen and  (max-width: 991px) {
+    .courses {
+        flex-direction: column;
+    }
+    .courses_time {
+        width: 100%;
+        gap: 1.5em;
+    }
+    .courses_content {
+        width: 70%;
+    }
+    .courses_img {
+        align-self: flex-end;
+        width: 50%;
+    }
+    .quote {
+        justify-content: flex-start;
+    }
+    .quote_content {
+        width: 60%;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about_article {
+        width: 100%;
+    }
+    .about_image {
+        width: 50%;
+    }
+    .duration_img {
+        display: none;
+    }
+    .duration_info_block {
+        width: 90%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .duration_info {
+        width: 40%;
+    }
+    .lesson-format_type {
+        flex-wrap: wrap;
+    }
+    .lesson_info {
+        width: 40%;
+    }
+    .what_ul {
+        width: 80%;
+    }
+    .program_wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+    .program_items{
+        width: 50%;
+    }
+    .program_wrapper-zero {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em
+    }
+    .review_info {
+        width: 90%;
+    }
+    .footer {
+        flex-direction: column;
+        gap: 2em;
+    }
+}
